@@ -10,8 +10,8 @@ This project is a backend service for processing store visit images. The service
 
 ## Installation & Setup
 ### Prerequisites
-- Node.js (>=20.17.0 recommended)
-- MongoDB (running locally or a cloud database)
+- Node.js
+- MongoDB
 
 ### Steps
 1. Clone the repository:
@@ -33,10 +33,6 @@ This project is a backend service for processing store visit images. The service
    ```sh
    npm run dev
    ```
-6. Start the server in production mode:
-   ```sh
-   npm start
-   ```
 
 ## Testing Instructions
 - Use Postman or cURL to test the API endpoints:
@@ -48,23 +44,17 @@ This project is a backend service for processing store visit images. The service
     ```sh
     GET http://localhost:5000/api/status?jobid=123
     ```
-- Run tests (if applicable):
-  ```sh
-  npm test
-  ```
+
 
 ## Work Environment
-- **OS:** Ubuntu 22.04 LTS
 - **IDE:** VS Code
-- **Libraries:** Node.js, Express.js, Mongoose, Multer, csv-parser
+- **Libraries used:** Node.js, Express.js, Mongoose, Multer, csv-parser
 
 ## Future Improvements
-- Implement proper error handling and logging.
-- Add authentication and authorization.
-- Optimize image processing using worker threads.
-- Deploy the service using Docker and Kubernetes.
+- we can add authentication and authorization.
+- we can Optimize image processing using worker threads.
+- we can deploy the service using Docker and Kubernetes.
 
 ---
 
-This README provides a complete overview of the project. Let me know if any changes are needed! 🚀
 
