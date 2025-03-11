@@ -28,8 +28,7 @@ This project is a backend service for processing store visit images. The service
    PORT=5000
    MONGO_URI=mongodb://localhost:27017/retail_pulse
    ```
-4. Ensure `store_master.csv` is placed inside the `src/config/` folder.
-5. Start the server in development mode:
+4. Start the server in development mode:
    ```sh
    npm run dev
    ```
